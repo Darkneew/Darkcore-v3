@@ -5,7 +5,7 @@ const botconfig = require('./botconfig.json');
 bot.login (botconfig.token);
 bot.on('ready', () => {
     console.log("Up and running");
-    bot.user.setActivity("over you", {type: 3});
+    bot.user.setActivity("over you || Mention me for help", {type: 3});
 });
 const admins = botconfig.admins;
 const newschannel = botconfig.news;
