@@ -142,7 +142,7 @@ bot.on('message', message => {
         else if (message.isMentioned(bot.user)) {
             if (mod.lang == 'esp') return message.channel.send(`Hola ;) ! Me llamaba? Para tener una lista de las commandas, escribe \`${mod.prefix}helpa\`. Si quieres precisiones sobre una partcular commanda, escribe \`${mod.prefix}helpa [commanda llama]\``);
             else if (mod.lang == 'fr') return message.channel.send(`Bonjour :) ! On m'appelle? Pour avoir une liste complète de mes commandes, écrivez simplement \`${mod.prefix}aide\`. Si vous voulez une aide plus spécifique, ajoutez le nom de la commande qui vous intrigue après le \`aide\``);
-            else return message.channel.send(`Hello :) ! Did you call me? To have a list of all commands available on this server, please type in \`${mod.prefix}help\`. To have a more precise information about a command, you can also type in \`${mod.prefix}helpe [command name]\``);
+            else return message.channel.send(`Hello :) ! Did you call me? To have a list of all commands available on this server, please type in \`${mod.prefix}help\`. To have a more precise information about a command, you can also type in \`${mod.prefix}help [command name]\``);
         }
     }
 })

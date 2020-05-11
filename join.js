@@ -31,7 +31,7 @@ exports.Setup = (guild, Abot) => {
         inside = inside.join('\n');
         fs.writeFileSync(`server_settings\\${c.guild.id}.js`, inside, (x) => {if (x) console.error(x)});
         let cmdList = [];
-        let insideCmd = ["const Discord = require('discord.js')","const fs = require('fs')"];
+        let insideCmd = ["const Discord = require('discord.js');","const fs = require('fs');","const wikiModule = require('wikijs').default;"];
         let cmds = require('./command_db.json');
         if (pref.lang == 'esp') {
             cmdList.push(['helpa','Helpa es una commanda para ayudarte y dar una lista de todas las commandas. Puedes poner un palabra despues por una helpa sobre este palabra'])

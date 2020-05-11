@@ -44,7 +44,7 @@ The `news` property should have the news channel id as value. If you don't want 
 
 The next step is to download all required modules. For that, just type :
 ```bash 
-npm install discord.js yo-mamma
+npm install 
 ```
 In the command prompt in the folder. In order to go into the folder, you can just type the following :
 ```
