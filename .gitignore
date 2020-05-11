@@ -1,0 +1,13 @@
+## IGNORED FILES
+
+# Developpement files
+draft.js
+ideas.txt
+
+# modules
+node_modules
+
+# Personal data
+botconfig.json
+server_commands/*.js
+server_settings/*.js

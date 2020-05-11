@@ -1,0 +1,6 @@
+
+{
+    "token": "your_token",
+    "admins": ["admin_id_1","admin_id_2"],
+    "news": "channel_id"
+}
