@@ -11,9 +11,9 @@ Darkcore is a polyfunctional discord bot, easy to setup and install. It can mana
 First download the whole project.
 You can do that by simply cloning the repository from github, with the git tool. 
 ```bash 
-git clone https://github.com/Darkneew/Darkcore-2.0
+git clone https://github.com/Darkneew/Darkcore-v3
 ```
-If you don't git, you can download the repository from [here](https://github.com/Darkneew/Darkcore-2.0)
+If you don't git, you can download the repository from [here](https://github.com/Darkneew/Darkcore-v3)
 
 ### Creating the bot
 
